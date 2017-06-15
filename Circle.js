@@ -178,7 +178,7 @@ export class ProgressCircle extends Component {
                 fontWeight: '300',
               }, textStyle]}
             >
-              {formatText(progressValue)}
+              {formatText(progressValue)} of photos sorted!
             </Text>
           </View>
         ) : false}
