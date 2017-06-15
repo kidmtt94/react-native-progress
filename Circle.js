@@ -173,13 +173,14 @@ export class ProgressCircle extends Component {
           >
             <Text
               style={[{
-                color,
+                color: 'rgb(82, 82, 82)',
                 fontSize: textSize / 4.5,
-                fontWeight: '300',
+                fontWeight: 'bold',
               }, textStyle]}
             >
-              {formatText(progressValue)} of photos sorted!
+              {formatText(progressValue)} 
             </Text>
+            <Text>of photos sorted!</Text>
           </View>
         ) : false}
         {children}
